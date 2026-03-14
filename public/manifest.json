@@ -1,0 +1,36 @@
+{
+    "name" : "Deychat",
+    "short_name" : "Deychat",
+    "start_url" : ".",
+    "background_color" : "green",
+    "theme_color" : "#009578",
+    "display" : "standalone",
+    "icons" : [
+        {
+            "src" : "https://upload.wikimedia.org/wikipedia/commons/9/9b/Love-game-logo-256x256.png",
+            "sizes" : "256x256",
+            "type" : "image/png"
+        },
+        {
+            "src" : "https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-five-pointed-star-logo-icon-icons-download-8.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        }
+        
+
+    ],
+    "screenshots": [
+    {
+      "src" : "https://upload.wikimedia.org/wikipedia/commons/9/9b/Love-game-logo-256x256.png",
+            "sizes" : "256x256",
+            "type" : "image/png",
+            "form_factor": "narrow"
+    },
+    {
+      "src" : "https://www.freepnglogos.com/uploads/512x512-logo-png/512x512-logo-five-pointed-star-logo-icon-icons-download-8.png",
+        "sizes" : "512x512",
+        "type" : "image/png",
+        "form_factor": "wide"
+    }
+  ]
+} 

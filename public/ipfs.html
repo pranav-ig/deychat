@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ipfs</title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+
+
+  </head>
+  <body><center>
+    <h1>ipfs</h1>
+    <p>Welcome to ipfs</p></center>
+  </body>
+
+
+  
+    <br /><br /><br />
+
+  <div class="form-style-5">
+    <h2><center>Certificate Upload</center></h2>
+  <form action="uploadCertificate" method="POST" enctype="multipart/form-data">
+    <input type="email" name="email" placeholder="Enter email"  required/>
+    <br>
+    <input type="file" name="certificate" required/>
+    <br>
+    <input type="submit" value="Upload Certificate"/>
+  </form>
+</div>
+<br /><br /><br />
+<div class="form-style-5">
+  <h2><center>Certificate View</center></h2>
+<form action="viewCertificate" method="GET" >
+  <input type="email" name="email" placeholder="Enter email" required/> 
+  <input type="submit" value="View Certificate" required/>
+</form>	
+</div>	
+</html>
